@@ -722,7 +722,7 @@
                 }
             }
             function fillSpTaskType(data) {
-                for(var i=1;i<data.length;i++){
+                for(var i=0;i<data.length;i++){
                     $("#spAddJobDetailTaskType").append("<option>"+data[i].name+"</option>")
                     $("#spAddJobDetailTaskType").selectpicker('refresh');
                     $("#spEditJobDetailTaskType").append("<option>"+data[i].name+"</option>")
@@ -731,7 +731,7 @@
             }
 
             function fillSpTaskInfo(data) {
-                for(var i=1;i<data.length;i++){
+                for(var i=0;i<data.length;i++){
                     $("#spAddJobDetailTaskInfo").append("<option>"+data[i].name+"</option>")
                     $("#spAddJobDetailTaskInfo").selectpicker('refresh');
                     $("#spEditJobDetailTaskInfo").append("<option>"+data[i].name+"</option>")
