@@ -95,22 +95,22 @@ dataSource:
     pooled: true
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
-    username: sam
-    password: samsql
+    username: wtm_user
+    password: wtmsql
 
 environments:
     development:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://119.23.253.8:3306/rzjwork?autoreconnect=true&characterEncoding=utf8
+            url: jdbc:mysql://116.62.217.34:3306/work_time_mgr?autoreconnect=true&characterEncoding=utf8
     test:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://119.23.253.8:3306/rzjwork?autoreconnect=true&characterEncoding=utf8
+            url: jdbc:mysql://116.62.217.34:3306/work_time_mgr?autoreconnect=true&characterEncoding=utf8
     production:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://119.23.253.8:3306/rzjwork?autoreconnect=true&characterEncoding=utf8
+            url: jdbc:mysql://116.62.217.34:3306/work_time_mgr?autoreconnect=true&characterEncoding=utf8
             properties:
                 jmxEnabled: true
                 initialSize: 5
